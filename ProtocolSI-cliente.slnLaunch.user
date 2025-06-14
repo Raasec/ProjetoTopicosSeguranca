@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Novo Perfil",
+    "Projects": [
+      {
+        "Path": "ConsoleApp1\\ConsoleApp1.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ProtocolSI-cliente\\ProtocolSI-cliente.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

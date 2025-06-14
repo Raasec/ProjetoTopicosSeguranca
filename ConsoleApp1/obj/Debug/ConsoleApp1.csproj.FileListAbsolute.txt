@@ -1,0 +1,17 @@
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ProtocolSI.dll
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\redom\source\repos\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
