@@ -21,3 +21,14 @@ C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-client
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.csproj.CopyComplete
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.exe
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.pdb
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\bin\Debug\ProtocolSI-cliente.exe.config
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\bin\Debug\ProtocolSI-cliente.exe
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\bin\Debug\ProtocolSI-cliente.pdb
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.csproj.AssemblyReference.cache
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI_cliente.Form1.resources
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI_cliente.Properties.Resources.resources
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.csproj.GenerateResource.cache
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.csproj.CoreCompileInputs.cache
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\Protocol.A8338F97.Up2Date
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.exe
+C:\Users\redom\Desktop\Project-TP\ProtocolSI-cliente\obj\Debug\ProtocolSI-cliente.pdb

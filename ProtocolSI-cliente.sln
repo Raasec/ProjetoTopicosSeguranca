@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtocolSI-cliente", "ProtocolSI-cliente\ProtocolSI-cliente.csproj", "{EF081397-5C5E-440C-BE55-C44B321166BA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{304FB28C-1C1F-4EC9-A8B3-35D61A1867C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginApp", "LoginApp\LoginApp.csproj", "{399A5735-C54D-4E44-B2A9-24FD429A7EC3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{304FB28C-1C1F-4EC9-A8B3-35D61A1867C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{304FB28C-1C1F-4EC9-A8B3-35D61A1867C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{304FB28C-1C1F-4EC9-A8B3-35D61A1867C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{399A5735-C54D-4E44-B2A9-24FD429A7EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{399A5735-C54D-4E44-B2A9-24FD429A7EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{399A5735-C54D-4E44-B2A9-24FD429A7EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{399A5735-C54D-4E44-B2A9-24FD429A7EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

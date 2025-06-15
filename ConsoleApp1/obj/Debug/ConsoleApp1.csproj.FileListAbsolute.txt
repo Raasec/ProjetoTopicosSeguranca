@@ -15,3 +15,11 @@ C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-client
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\Roman\Desktop\ProtocolSI-cliente-20250426T133356Z-001\ProtocolSI-cliente\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
