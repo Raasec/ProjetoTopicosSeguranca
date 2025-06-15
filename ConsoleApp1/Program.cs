@@ -253,5 +253,13 @@ namespace ProtocolSI_servidor
                 }
             }
         }
+
+        static void EscreverLog(string mensagem)
+        {
+            string caminhoLog = "log_servidor.txt";
+            string linha = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} | {mensagem}";
+            File.AppendAllText(caminhoLog, linha + Environment.NewLine);
+        }
+
     }
 }

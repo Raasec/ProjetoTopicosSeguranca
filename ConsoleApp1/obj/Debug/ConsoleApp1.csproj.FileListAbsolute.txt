@@ -23,3 +23,11 @@ C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreC
 C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleA.CB28C8CC.Up2Date
 C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\redom\Desktop\Project-TP\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Roman\Desktop\gitswag\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

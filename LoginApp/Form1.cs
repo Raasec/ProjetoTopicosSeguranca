@@ -166,39 +166,24 @@ namespace LoginApp
 
         private void ButtonLogin_Click(object sender, EventArgs e)
         {
-            String password = textBoxPassword.Text;
-            String username = textBoxUsername.Text;
+            string password = textBoxPassword.Text;
+            string username = textBoxUsername.Text;
 
             if (VerifyLogin(username, password))
             {
-                MessageBox.Show("O utilizador é váildo!!");
+                MessageBox.Show("O utilizador é válido!!");
 
+                // Abre o formulário do chat, passando o nome do utilizador autenticado
+                ProtocolSI_cliente.Form1 chatForm = new ProtocolSI_cliente.Form1(username);
+                chatForm.Show();
 
+                this.Hide(); // Esconde o formulário de login
             }
             else
             {
                 MessageBox.Show("Autenticação errada!!");
             }
-
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

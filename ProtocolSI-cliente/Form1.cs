@@ -20,14 +20,17 @@ namespace ProtocolSI_cliente
         private RSACryptoServiceProvider rsaClient;
         private string publicKeyClient;
         private string serverPublicKey;
-        private string username = "Cliente1";  // <---- PLACEHOLDER, depois tem de vir do login
 
         private byte[] chaveSimetrica;  // ### NÃO INICIALIZAR FIXA
         private byte[] ivSimetrica;     // ###
 
-        public Form1()
+        private string username;
+
+        public Form1(string username)
         {
             InitializeComponent();
+            this.username = username;
+
             IPEndPoint endPoint = new IPEndPoint(IPAddress.Loopback, PORT);
 
             // Gera par de chaves do cliente
@@ -50,6 +53,7 @@ namespace ProtocolSI_cliente
             Task.Run(() => ReceiveMessages());
         }
 
+
         private void SendPublicKey()
         {
             byte[] packet = protocolSI.Make(ProtocolSICmdType.DATA, publicKeyClient);
@@ -58,32 +62,29 @@ namespace ProtocolSI_cliente
 
         private void ReceiveAesKeyAndIV()
         {
-            // Recebe chave AES cifrada
+            // 1. Receber a chave AES cifrada
             networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
             if (protocolSI.GetCmdType() == ProtocolSICmdType.DATA)
-            {
-                byte[] chaveAesCifrada = protocolSI.GetData();
-
-                // Descifra chave AES com chave privada RSA
-                chaveSimetrica = rsaClient.Decrypt(chaveAesCifrada, false); // false = PKCS1, usar true para OAEP
-
-                Console.WriteLine("Chave AES recebida e descifrada.");
-            }
-
-            // Recebe IV AES (em base64)
-            int bytesRead = networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
-            if (bytesRead > 0 && protocolSI.GetCmdType() == ProtocolSICmdType.DATA)
             {
                 byte[] chaveAesCifrada = protocolSI.GetData();
                 chaveSimetrica = rsaClient.Decrypt(chaveAesCifrada, false);
                 Console.WriteLine("Chave AES recebida e descifrada.");
             }
+
+            // 2. Receber o IV (em claro, base64)
+            networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
+            if (protocolSI.GetCmdType() == ProtocolSICmdType.DATA)
+            {
+                string ivBase64 = protocolSI.GetStringFromData();
+                ivSimetrica = Convert.FromBase64String(ivBase64);
+                Console.WriteLine("IV recebido.");
+            }
             else
             {
-                Console.WriteLine("Erro a receber chave AES cifrada.");
-                // Tratar erro (ex: fechar conexão)
+                Console.WriteLine("Erro ao receber IV.");
             }
         }
+
 
         private void ReceiveServerPublicKey()
         {
@@ -213,6 +214,20 @@ namespace ProtocolSI_cliente
                     textBox2.AppendText("Conexão terminada inesperadamente." + Environment.NewLine);
                 }));
                 CloseClient();
+            }
+        }
+        private static void EscreverLog(string ip, string username, string mensagem)
+        {
+            string logPath = "log.txt";
+            string linhaLog = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] IP: {ip} | Utilizador: {username} | Mensagem: {mensagem}";
+
+            try
+            {
+                File.AppendAllText(logPath, linhaLog + Environment.NewLine);
+            }
+            catch (IOException ex)
+            {
+                Console.WriteLine("Erro ao escrever no log: " + ex.Message);
             }
         }
 
