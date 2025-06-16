@@ -127,6 +127,9 @@ namespace ProtocolSI_cliente
                 int bytesRead = networkStream.Read(protocolSI.Buffer, 0, protocolSI.Buffer.Length);
                 if (bytesRead == 0) break;
             }
+
+            //chama o escrever log aqui
+            EscreverLog(((IPEndPoint)client.Client.LocalEndPoint).Address.ToString(), username, mensagemOriginal)
         }
 
         private byte[] AssinarMensagem(byte[] dados)
